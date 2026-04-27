@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Hold or Die",
+    "slug": "hold-or-die",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050510"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.kwamkitt.holdordie"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#050510"
+      },
+      "package": "com.kwamkitt.holdordie",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
