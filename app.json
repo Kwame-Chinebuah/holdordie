@@ -27,11 +27,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "b757fa12-5f58-4030-893a-dd6d20293e86"
-      }
-    },
-    "owner": "kwamkitt"
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-8920454653234729~3332226609"
+        }
+      ]
+    ]
   }
 }
