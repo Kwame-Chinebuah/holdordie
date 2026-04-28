@@ -1,6 +1,6 @@
 {
   "name": "hold-or-die",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "App.js",
   "scripts": {
     "start": "expo start",
@@ -12,6 +12,7 @@
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/stack": "^6.3.20",
     "expo": "~54.0.0",
+    "expo-build-properties": "~1.0.10",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
     "react-native": "0.81.5",

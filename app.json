@@ -1,12 +1,12 @@
 {
   "expo": {
+    "newArchEnabled": true,
     "name": "Hold or Die",
     "slug": "hold-or-die",
     "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -22,8 +22,12 @@
         "backgroundColor": "#050510"
       },
       "package": "com.kwamkitt.holdordie",
-      "versionCode": 3
+      "versionCode": 3,
+      "edgeToEdgeEnabled": true
     },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     },
@@ -33,7 +37,20 @@
         {
           "androidAppId": "ca-app-pub-8920454653234729~3332226609"
         }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enablePngCrunchInReleaseBuilds": false
+          }
+        }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c3efb473-c80c-441d-919b-7d6f82fd1ffc"
+      }
+    }
   }
 }
