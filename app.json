@@ -3,7 +3,7 @@
     "newArchEnabled": true,
     "name": "Hold or Die",
     "slug": "hold-or-die",
-    "version": "1.0.0.12",
+    "version": "1.0.0.13",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
@@ -22,7 +22,7 @@
         "backgroundColor": "#050510"
       },
       "package": "com.kwamkitt.holdordie",
-      "versionCode": 12,
+      "versionCode": 13,
       "edgeToEdgeEnabled": true,
       "permissions": [
         "com.google.android.gms.permission.AD_ID"
